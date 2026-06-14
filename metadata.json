@@ -1,0 +1,6 @@
+{
+  "name": "Love Journey",
+  "description": "An interactive love story and romantic digital git for my beloved, detailing our memories, reasons I love you, and a heartfelt message.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_API"]
+}
