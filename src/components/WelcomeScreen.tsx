@@ -64,7 +64,7 @@ export default function WelcomeScreen({ onStart }: WelcomeScreenProps) {
 
         {/* Elegant Headline (Great Vibes) */}
         <h1 className="mb-4 font-serif text-5xl font-bold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-rose-500 to-amber-500 sm:text-6xl dark:from-pink-400 dark:via-rose-400 dark:to-amber-400">
-          Welcome My Love ❤️
+          Welcome የአብስራ ❤️
         </h1>
 
         {/* Subtitle (Poppins) */}
@@ -95,7 +95,7 @@ export default function WelcomeScreen({ onStart }: WelcomeScreenProps) {
           <span className="absolute inset-0 w-full h-full bg-white/20 transform -skew-x-12 -translate-x-full group-hover:animate-shine" />
           
           <span className="flex items-center justify-center gap-2">
-            Start The Journey
+            Start The Journey yabu
             <Heart className="h-4 w-4 fill-white animate-pulse" />
           </span>
         </motion.button>

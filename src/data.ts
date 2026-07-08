@@ -6,7 +6,7 @@ export const MEMORIES: MemoryCard[] = [
     date: 'September 14, 2024',
     title: 'Our First Conversation',
     description: 'It started with a simple, nervous greeting, but very quickly turned into hours of endless chatter. I remember staying up late, staring at my screen with a smile I couldn\'t wipe away. That was the spark that started it all.',
-    image: '/first_conversation.jpg'
+    image: 'photo_2025-12-01_22-42-58.jpg'
   },
   {
     id: 'first_laugh',
