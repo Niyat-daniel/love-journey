@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Heart } from 'lucide-react';
+import WebApp from "@twa-dev/sdk";
 
 // Subcomponents import
 import WelcomeScreen from './components/WelcomeScreen';
@@ -38,6 +39,16 @@ export default function App() {
     const root = window.document.documentElement;
     root.classList.remove('dark');
   }, []);
+  // Initialize Telegram Mini App
+useEffect(() => {
+  if (!window.Telegram?.WebApp) return;
+
+  WebApp.ready();
+  WebApp.expand();
+
+  console.log("Telegram Mini App initialized");
+  console.log(WebApp.platform);
+}, []);
 
   const handleNextPage = () => {
     const nextPage = currentPage + 1;
